@@ -167,6 +167,13 @@ function library:new(props)
 			Parent = screen
 		}
 	)
+	local grad = utility.new(
+		"UIGradient",
+		{
+			Color = color,
+			Parent = outline
+		}
+	)
 	-- 2
 	local outline2 = utility.new(
 		"Frame",
